@@ -40,4 +40,4 @@ Send each coin only on the network named next to its address. The same addresses
 
 ## License
 
-Strata is licensed under the [GNU AGPL v3.0 or later](LICENSE). Third-party components keep their own licenses; they are listed in the app under **Settings → About**.
+FileManager is licensed under the [GNU AGPL v3.0 or later](LICENSE). Third-party components keep their own licenses; they are listed in the app under **Settings → About**.
