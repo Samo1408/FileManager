@@ -1,13 +1,6 @@
-<p align="center">
-  <img src=".github/assets/poster.png" alt="Strata, the free, open-source file manager for Android" width="100%">
-</p>
 
-<p align="center">
-  <a href="https://github.com/CluvexStudio/Strata/actions/workflows/build.yml"><img src="https://github.com/CluvexStudio/Strata/actions/workflows/build.yml/badge.svg" alt="Build"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-0F3D2E" alt="License: AGPL-3.0"></a>
-</p>
 
-**Strata** is a free, open-source file manager for Android with the tools power users need: two panes, archives, APK and DEX editing, a code editor, network storages and an encrypted vault. No ads, no accounts, no tracking.
+**FileManager** is a free, open-source file manager for Android with the tools power users need: two panes, archives, APK and DEX editing, a code editor, network storages and an encrypted vault. No ads, no accounts, no tracking.
 
 ## Features
 
@@ -35,13 +28,13 @@ native/build.sh
 
 ## Support the developer
 
-Strata is free and open source. If it saves you time and you'd like to help it grow, you can send a donation to one of these addresses. Every bit of support is appreciated. Thank you!
+FileManager is free and open source. If it saves you time and you'd like to help it grow, you can send a donation to one of these addresses. Every bit of support is appreciated. Thank you!
 
 | Coin and network | Address |
 |---|---|
-| TRX / USDT · Tron (TRC-20) | `TRxVSHcoADZnBfztFmFb2TQopusAwWYEVR` |
-| USDT · BNB Smart Chain (BEP-20) | `0x20c980AEF36Aa71D0A0e7bE382AeD20b73bC6D27` |
-| TON (Gram) | `UQAH75bXaaRUhZMwiF0ZujOXFDDmvLSPASKoOsWF0HNasiaM` |
+| TRX / USDT · Tron (TRC-20) | `` |
+| USDT · BNB Smart Chain (BEP-20) | `` |
+| TON (Gram) | `` |
 
 Send each coin only on the network named next to its address. The same addresses are in the app under **Settings → Support the developer**.
 
