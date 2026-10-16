@@ -59,21 +59,7 @@ jobs:
           retention-days: 14
           if-no-files-found: error
 
-      - name: Signing key
-        if: github.event_name != 'pull_request'
-        env:
-          KEYSTORE_BASE64: ${{ secrets.FILEMANAGER_KEYSTORE_BASE64 }}
-          KEYSTORE_PASSWORD: ${{ secrets.FILEMANAGER_KEYSTORE_PASSWORD }}
-          KEY_ALIAS: ${{ secrets.FILEMANAGER_KEY_ALIAS }}
-          KEY_PASSWORD: ${{ secrets.FILEMANAGER_KEY_PASSWORD }}
-        run: |
-          if [ -z "$KEYSTORE_BASE64" ] || [ -z "$KEYSTORE_PASSWORD" ] || [ -z "$KEY_ALIAS" ] || [ -z "$KEY_PASSWORD" ]; then
-            echo "::error::Add the FILEMANAGER_KEYSTORE_BASE64, FILEMANAGER_KEYSTORE_PASSWORD, FILEMANAGER_KEY_ALIAS and FILEMANAGER_KEY_PASSWORD secrets to sign releases."
-            exit 1
-          fi
-          echo "$KEYSTORE_BASE64" | base64 -d > release.jks
-          printf 'storeFile=release.jks\nstorePassword=%s\nkeyAlias=%s\nkeyPassword=%s\n' "$KEYSTORE_PASSWORD" "$KEY_ALIAS" "$KEY_PASSWORD" > keystore.properties
-
+      
       - name: Build the signed release APKs
         if: github.event_name != 'pull_request'
         run: |
