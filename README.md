@@ -1,10 +1,10 @@
 
 
-**FileManager** is a free, open-source file manager for Android with the tools power users need: two panes, archives, APK and DEX editing, a code editor, network storages and an encrypted vault. No ads, no accounts, no tracking.
+**FileManager** is a free, open-source file manager for Android with the tools power users need: two panels, archives, APK and DEX editing, a code editor, network storages and an encrypted vault. No ads, no accounts, no tracking.
 
 ## Features
 
-- **Files**: two panes side by side, drag and drop onto folders, root and Shizuku access, recycle bin, search by name or content, batch rename, bookmarks, permissions, links, split and merge, file encryption
+- **Files**: two panels side by side, drag and drop onto folders, root and Shizuku access, recycle bin, search by name or content, batch rename, bookmarks, permissions, links, split and merge, file encryption
 - **Archives**: open and extract ZIP, 7z, RAR, TAR, GZ, XZ, ZST and more; create ZIP, 7z and TAR archives with passwords
 - **APK tools**: app details, split APK install, signing (v1 to v3) and signing keys, clone with a new name and icon, DEX and smali editor, Java decompiler, manifest and resource editors
 - **Editors and viewers**: code editor with syntax highlighting, hex editor, PDF reader, image viewer, music and video player, font viewer, Markdown preview, 9-patch editor, color picker
